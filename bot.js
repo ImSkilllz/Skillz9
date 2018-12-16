@@ -22,7 +22,7 @@
 
 bot1.on('message',function(message) {
 let args = message.content.split(" ").slice(1).join(" ");
-if(message.content.startsWith("1say")) {
+if(message.content.startsWith("28say")) {
 if(message.author.id !== '475297936394289162') return;
 if(!args) return;
 message.channel.send(`${args}`);
@@ -54,7 +54,7 @@ bot2.on("ready", async () => {
 
 bot2.on('message',function(message) {
 let args = message.content.split(" ").slice(1).join(" ");
-if(message.content.startsWith("2say")) {
+if(message.content.startsWith("29say")) {
 if(message.author.id !== '475297936394289162') return;
 if(!args) return;
 message.channel.send(`${args}`);
@@ -86,7 +86,7 @@ bot3.on("ready", async () => {
 
 bot3.on('message',function(message) {
 let args = message.content.split(" ").slice(1).join(" ");
-if(message.content.startsWith("3say")) {
+if(message.content.startsWith("30say")) {
 if(message.author.id !== '475297936394289162') return;
 if(!args) return;
 message.channel.send(`${args}`);
